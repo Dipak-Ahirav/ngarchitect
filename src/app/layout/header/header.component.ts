@@ -12,7 +12,7 @@ import { SettingsService } from '../../core/services/settings.service';
       <div class="topbar-title"><strong>NgArchitect</strong><span class="product-badge">Angular Architecture Review</span></div>
       <div class="topbar-actions">
         <button brnButton class="icon-button" type="button" [brnTooltip]="'Change color theme'" (click)="cycleTheme()" [attr.aria-label]="'Theme: ' + settings.settings().theme">{{ settings.settings().theme === 'light' ? '☀' : settings.settings().theme === 'system' ? '◐' : '☾' }}</button>
-        <a brnButton class="secondary-button github-button" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        <a brnButton class="secondary-button github-button" href="https://github.com/Dipak-Ahirav/ngarchitect" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
       </div>
     </header>
   `
